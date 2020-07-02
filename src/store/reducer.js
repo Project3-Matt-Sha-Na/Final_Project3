@@ -156,10 +156,10 @@ const reducer = (state = initialstate, action) => {
       return 0;
     }
     if (newState.title_order === "ASC") {
-      newState.movielist.sort(ascend);
+      newState.newMovieList.sort(ascend);
       newState.title_order = "DES";
     } else {
-      newState.movielist.sort(descend);
+      newState.newMovieList.sort(descend);
       newState.title_order = "ASC";
     }
     // console.log(newState.movielist);
@@ -174,10 +174,10 @@ const reducer = (state = initialstate, action) => {
     }
 
     if (newState.rate_order === "ASC") {
-      newState.movielist.sort(ascend);
+      newState.newMovieList.sort(ascend);
       newState.rate_order = "DES";
     } else {
-      newState.movielist.sort(descend);
+      newState.newMovieList.sort(descend);
       newState.rate_order = "ASC";
     }
     // console.log(newState.movielist);
@@ -192,10 +192,10 @@ const reducer = (state = initialstate, action) => {
     }
 
     if (newState.vote_order === "ASC") {
-      newState.movielist.sort(ascend);
+      newState.newMovieList.sort(ascend);
       newState.vote_order = "DES";
     } else {
-      newState.movielist.sort(descend);
+      newState.newMovieList.sort(descend);
       newState.vote_order = "ASC";
     }
     // console.log(newState.movielist);
@@ -210,10 +210,10 @@ const reducer = (state = initialstate, action) => {
     }
 
     if (newState.date_order === "ASC") {
-      newState.movielist.sort(ascend);
+      newState.newMovieList.sort(ascend);
       newState.date_order = "DES";
     } else {
-      newState.movielist.sort(descend);
+      newState.newMovieList.sort(descend);
       newState.date_order = "ASC";
     }
     // console.log(newState.movielist);

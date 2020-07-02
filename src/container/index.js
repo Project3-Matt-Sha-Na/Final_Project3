@@ -76,7 +76,7 @@ class Movie extends Component {
 const mapStateToProps = state => {
   return {
     moviedatabase: state.moviedatabase,
-    movielist: state.movielist,
+    movielist: state.newMovieList,
     showlist: state.showlist,
     likelist: state.likelist,
     blocklist: state.blocklist,
